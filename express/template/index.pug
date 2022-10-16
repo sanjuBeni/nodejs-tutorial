@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#{title}</title>
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <nav>
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact Us</a></li>
+    </nav>
+    <div class="container">
+      <h2>#{content}</h2>
+      <!-- <p>HTML File is used inside pug file</p> -->
+      <form action="/form-data" method="post">
+        <input type="text" name="name" id="name" placeholder="Enter name" />
+        <br />
+        <br />
+        <input type="text" name="age" id="age" placeholder="Enter age" />
+        <br />
+        <br />
+        <input type="text" name="gen" id="gen" placeholder="Enter gender" />
+        <br />
+        <br />
+        <input type="text" name="mob" id="mob" placeholder="Enter mobile" />
+        <br />
+        <br />
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

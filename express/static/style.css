@@ -1,0 +1,29 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 30px;
+    margin-left: 30%;
+    max-width: 70%;
+}
+h2{
+    margin-bottom: 15px;
+    color: rgb(58, 119, 99);
+}
+nav{
+    background-color: rgb(64, 99, 165);
+    display: flex;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    padding: 13px 8px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(182, 165, 165);
+}
